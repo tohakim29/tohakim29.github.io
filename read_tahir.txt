@@ -1,0 +1,42 @@
+/cmd
+npm install -g yarn
+/cmd
+yarn   or npm install
+/cmd  
+yarn start     or npm start
+/cmd
+npm add swiper
+/cmd
+npm add emailjs
+or
+npm install emailjs-com --save
+
+/cmd  for Facebook icons
+npm install iconscout/react-unicons
+
+/cmd
+npm intall framer-motion@4.1.17
+
+/cmd
+npm intall react-scroll
+
+/cmd for netlify, hosting 
+npm run build
+serve -s buil  - проверить запускается ли build
+
+
+/int index.html write default css
+<style>
+  @font-face{
+    font-family: Gumela;
+    src: url('../src/fonts/*');
+  }
+  *{
+    font-family: 'Gumela';
+    font-weight: normal;
+    font-size: 30px;
+  }
+  body{
+    margin: 0px;
+  }
+</style>

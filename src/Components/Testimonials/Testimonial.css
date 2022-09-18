@@ -1,0 +1,100 @@
+.t-wrapper{
+   height: 50vh;
+   padding: 0 3rem 0 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 7rem;
+   flex-direction: column;
+   gap: 2rem;
+   position: relative;
+   margin-bottom: 4rem;
+}
+
+.t-heading{ 
+align-items: center;
+
+}
+
+.t-heading>*{
+   font-size: 2rem;
+   font-weight: bold;
+} 
+
+.t-heading span:nth-child(2){
+   color: var(--orange);
+ }   
+
+
+.t-blur1{
+        left: 38rem;
+        top: 16rem;
+}
+
+.t-blur2{
+    top: 9rem;
+    left: 0;
+}
+
+/*slider*/
+.testimonial{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: auto;
+    height: 12rem;
+background: rgb( 255, 254, 255, 0.46);
+border-radius: 20px;
+
+}
+.testimonial> img{
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+   
+}
+.modules{
+    font-size: 20rem;
+}
+
+
+/*from Library*/
+.t-wrapper .swiper{
+    width: 100%;
+    height: 70%;
+}
+.t-wrapper .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t-wrapper .swiper-pagination-bullut-active{
+    background:var(--orange);
+
+}
+.t-wrapper .swiper-pagination-bullet{
+ width: 10px;
+ height: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .t-wrapper{
+       display: flex;
+       flex-direction: column;
+       height: 15rem;
+       padding: 0;
+       
+     margin:  0;
+    }
+   .testimonial>img{
+width: 70px;
+height: 70px;
+margin: 0;
+   }
+ 
+  }

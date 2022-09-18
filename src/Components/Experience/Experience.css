@@ -1,0 +1,46 @@
+.experience{
+    display: flex;  
+    align-items: center;  
+    justify-content: center; 
+    gap: 5rem;
+    height: 30vh;
+    margin-bottom: 8rem;
+   
+    text-align: center;
+}
+.achievement{
+    display: flex;
+    flex-direction: column;
+    align-items: cen;    
+}
+.circle{
+        width: 5rem;
+        height: 5rem;
+        background: white;
+        border-radius: 100%;
+        border: 2px solid var(--orange);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+
+}
+.circle::before{
+    border-radius: 100%;
+    content: '';
+    background-image: linear-gradient( to bottom, #0891F8  0%, red 100%);
+    z-index: -1;
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    position: absolute;
+    box-shadow: var(--smboxShadow);
+}
+
+.achievement span:nth-of-type(2){
+    color: var(--orange);
+
+}
