@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className=  {`  ${showFaicon ?'n-wrapper n-toggle':'n-wrapper'}  `}>
         <div className="n-left">
-            <div className="n-name">TaKiM</div>
+            <div className="n-name">Tohakim</div>
             <Toggle/>
         </div>
         <div className='fabar' onClick={toggleNavbar}><FaBars/></div>
